@@ -51,3 +51,16 @@ https://github.com/davidyack/CRMEasyPackageDeploy/raw/master/TemplatePackage.zip
  - Copy your template folder contents to that same folder
 
  - Run Package Deployer and you should see your package listed
+
+The latest version includes support for creating an AppSource package without any need for code. Building on top of the no code standalone package deployer. @thecrmlab added support for creating an AppSource package. There are a few more files that will need to be edited in order to setup your AppSource package. 
+
+Steps for using this template:
+
+- Download the AppSourcePackage.zip and unzip locally - you can download it from here
+https://github.com/TheCRMLab/CRMEasyPackageDeploy/blob/master/AppSourcePackage.zip
+- NOTE: You may need to right click the downloaded zip file and select Properties -> Unblock File -> Apply in order to unblock the downloaded file. 
+- Follow the instructions above for editing the package elements in the package.zip file located in the root of the downloaded template. NOTE: You will need to extract the package.zip from the AppSourcePackage.zip in order to edit the files. Take note of the structure of the entire zip file to ensure that the package.zip only contains the files necessary and not a nested folder.
+- Update the appicon_32_32.png for your app's icon
+- Update the privacy.htm and terms.htm to include your privay statement and terms and conditions for your app. Sample privacy and terms are included by default.
+- That's it. You're AppSource package is ready for publishing. You can test your package locally using the same steps as above with the CRMEasyPackageTemplate.zip.
+- To publish your AppSource package and for more information on AppSource publishing follow the instructions here https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/publish-app-appsource 
