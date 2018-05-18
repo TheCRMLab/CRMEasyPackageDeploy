@@ -52,6 +52,8 @@ https://github.com/davidyack/CRMEasyPackageDeploy/raw/master/TemplatePackage.zip
 
  - Run Package Deployer and you should see your package listed
 
+WARNING: Currently AppSource packaging is not supported using CRMEasyPackageDeployer. Use this only for reference. Do not try to publish your package using this template at this time.
+
 The latest version includes support for creating an AppSource package without any need for code. Building on top of the no code standalone package deployer. @thecrmlab added support for creating an AppSource package. There are a few more files that will need to be edited in order to setup your AppSource package. 
 
 Steps for using this template:
